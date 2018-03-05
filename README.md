@@ -1,24 +1,24 @@
-Bitcore Payment Protocol
+Bitcore-Dinero Payment Protocol
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-payment-protocol.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-payment-protocol)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcore-payment-protocol.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-payment-protocol)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-payment-protocol.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-payment-protocol)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-payment-protocol-dinero.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-payment-protocol-dinero)
+[![Build Status](https://img.shields.io/travis/dinerocoin/bitcore-payment-protocol-dinero.svg?branch=master&style=flat-square)](https://travis-ci.org/dinerocoin/bitcore-payment-protocol-dinero)
+[![Coverage Status](https://img.shields.io/coveralls/dinerocoin/bitcore-payment-protocol-dinero.svg?style=flat-square)](https://coveralls.io/r/dinerocoin/bitcore-payment-protocol-dinero)
 
-A module for [bitcore](https://github.com/bitpay/bitcore) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
+A module for [bitcore-dinero](https://github.com/dinerocoin/bitcore-dinero) that implements [Payment Protocol](https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki) and other related BIPs.
 
 ## Getting Started
 
 This library is distributed in both the npm and bower packaging systems.
 
 ```sh
-npm install bitcore-lib
-npm install bitcore-payment-protocol
+npm install bitcore-lib-dinero
+npm install bitcore-payment-protocol-dinero
 ```
 
 ```sh
-bower install bitcore-lib
-bower install bitcore-payment-protocol
+bower install bitcore-lib-dinero
+bower install bitcore-payment-protocol-dinero
 ```
 
 There are many examples of how to use it on the developer guide [section for payment protocol](https://bitcore.io/api/paypro). For example, the following code would verify a payment request:
@@ -41,7 +41,7 @@ var verified = request.verify();
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/bitpay/bitcore/blob/master/CONTRIBUTING.md) on the main bitcore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/dsahpay/bitcore-dinero/blob/master/CONTRIBUTING.md) on the main bitcore-dinero repo for information about how to contribute.
 
 ## License
 
